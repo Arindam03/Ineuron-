@@ -1,0 +1,277 @@
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+Ans - Python is easy to use: It is simple with an easily readable syntax and that makes it well-loved by both seasoned developers and experimental students.  
+      
+      Python runs on any platform: Not only is Python profoundly utilizer-amicable, but it also runs everywhere. It runs on Windows, Unix, Linux, MacOS, and 21 different platforms including z/0s, Solaris, and VMS.
+
+      Extensive support libraries: It provides large standard libraries that include the areas like string operations, Internet, web accommodation implements, operating system interfaces, and protocols. 
+
+      Python is accessible: For newcomers and beginners, Python is incredibly easy to learn and use. In fact, it’s one of the most accessible programming languages available.  
+
+      Incredible Artificial Intelligence and Machine Learning support: Python is the number one choice when it comes to rapidly develop and demandable technologies like Artificial Intelligence and Machine Learning. 
+
+
+      Python is an object-oriented, high-level programming language. Object-oriented means this language is based around objects (such as data) rather than functions, and high-level means it's easy for humans to understand.
+
+
+Q2. Why is Python called a dynamically typed language?  
+
+Ans -  Python is called dynamically typed language because we don't have to declare the type of a variable or manage the memory while assigning a value to a variable in Python. Other languages like C, C++, Java, etc.., there is a strict declaration of variables before assigning values to them. We have to declare the kind of variable before assigning a value to it in the languages C, C++, Java, etc.. 
+
+Q3. List some pros and cons of Python programming language? 
+
+Ans - Pros of Python
+        1. Beginner-Friendly 
+        2. Large Community
+        3. Flexible and Extensible
+        4. Extensive Libraries 
+        5. Embeddable
+        6. Highly Scalable
+        7. IOT Opportunities
+        8. Machine Learning
+        9. Portable  
+
+        Cons of Python
+        1. Issues with Design
+        2. Slower than Compiled Languages
+        3. Security
+        4. Work Environment
+        5. Python’s Memory Consumption and Garbage Collection
+        6. Python is Dynamically Typed
+        7. Multithreading in Python    
+
+Q4. In what all domains can we use Python? 
+
+Ans - 1. Machine learning / Artificial intelligence 
+      2. Data analytics and data visualization 
+      3. Web development 
+      4. Game development 
+      5. Embedded system 
+      6. Mobile App development 
+      7.  Desktop GUI 
+
+Q5. What are variable and how can we declare them? 
+
+Ans - Python Variable is containers which store values. Python is not “statically typed”. We do not need to declare variables before using them or declare their type.
+      We can declare the variable the moment we first assign a value to it.  
+
+Q6. How can we take an input from the user in Python? 
+
+Ans - Python input() function is used to take user input. By default, it returns the user input in form of a string. 
+      
+       Taking name of the user as input and storing it name variable
+       
+       e.g.       name = input("Please Enter Your Name: ")  
+
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function? 
+
+Ans -  By default, it returns the user input in form of a string. 
+
+Q8. What is type casting? 
+
+Ans -The conversion of one data type into the other data type is known as type casting in python or type conversion in python. Python supports a wide variety of functions or methods like: int(), float(), str(), ord(), hex(), oct(), tuple(), set(), list(), dict(), etc. for the type casting in python. 
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why? 
+
+Ans - Yes we can take multiple inputs using a single input() function in python . 
+
+      One way is to use split() method in python . Generally, users use a split() method to split a Python string but one can use it in taking multiple inputs. 
+
+        E.g. taking two inputs at a time
+        
+        x, y = input("Enter two values: ").split()
+        print("Number of boys: ", x)
+        print("Number of girls: ", y)
+        print()
+    
+
+      Another way is to use List comprehension to take multiple inputs .  
+
+     Example - x, y = [int(x) for x in input("Enter two values: ").split()]
+               print("First Number is: ", x)
+               print("Second Number is: ", y)
+               print()
+
+
+
+Q10. What are keywords? 
+
+Ans - Python keywords are special reserved words that have specific meanings and purposes and can’t be used for anything but those specific purposes. These keywords are always available—you’ll never have to import them into your code.
+      We can get a list of available keywords by using help(): help("Keywords") . Some of the examples of such keywords are - and,or , not, false ,def,class etc 
+
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason. 
+
+Ans - Keywords are some predefined and reserved words in python that have special meanings. Keywords are used to define the syntax of the coding. The keyword cannot be used as an identifier, function, and variable name. All the keywords in python are written in lower case except True and False.
+
+
+Q12. What is indentation? What's the use of indentaion in Python? 
+
+Ans - Indentation refers to the spaces at the beginning of a code line.
+
+      Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.
+
+      Python uses indentation to indicate a block of code. The number of spaces is up to you as a programmer, but it has to be at least one.
+
+
+      Example -  
+      
+      if 5 > 2:
+        print("Five is greater than two!") 
+
+
+Q13. How can we throw some output in Python? 
+
+Ans - The basic way to do output is the print statement. 
+
+Q14. What are operators in Python? 
+
+Ans - In Python, operators are special symbols that designate that some sort of computation should be performed. There are several different operator types including 
+      Arithmetic operators , Assignment Operators,Comparison Operators,Logical Operators,Bitwise Operators,Special Operators . 
+
+Q15. What is difference between / and // operators? 
+
+Ans - Both '/' and '//' belong to the arithmetic operators. '/' is used for the normal division of two numbers.  '//' is used to obtain the smallest integer nearest to the quotient obtained by dividing two numbers. 
+
+      a = 19
+
+      b = 4
+
+      print(a // b)  #This prints output as 4
+
+      print(a / b)  #This prints output as 4.75   
+
+
+      So, if the quotient obtained by dividing two numbers is not an integer, then operators '/' and '//' will return different answers. 
+
+
+Q16. Write a code that gives following as an output. 
+     iNeuroniNeuroniNeuroniNeuron
+
+Ans - print("iNeuron"*4)  
+
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even. 
+
+Ans -  number = int(input())
+
+       if number%2 ==0:
+         print("number is even")
+       else:
+         print("number is odd")
+
+
+Q18. What are boolean operator? 
+
+Ans - Boolean is type of value that can be either True or False . In Python, the Boolean type is bool , which is a subtype of int .
+      Boolean values are the values True or False (with a capital T and F) in Python. A Boolean variable is a variable that can be either True or False .
+
+Q19. What will the output of the following? 
+     1 or 0
+
+     0 and 0
+
+     True and False and True
+
+     1 or 0 or 0   
+
+Ans - 1 or 0 ---- 1 
+      0 and 0 ----0
+      True and False and True ...... False 
+      1 or 0 or 0 ------ 1 
+
+Q20. What are conditional statements in Python? 
+
+Ans - Conditional statements gives us the decision making capability that is required when we want to execute code based on a particular condition . Examples are 
+      if,elif,else statements . 
+
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+Ans - if,elif,else are conditional statements that provide you with the decision making that is required when you want to execute code based on a particular condition.
+
+      The if,elif,else statement used in Python helps automate that decision making process.
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote". 
+
+Ans - age = int(input())
+
+      print(age)
+
+      if age >=18:
+        print("I can vote") 
+      else:
+        print("I can't vote")
+
+
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+
+      numbers = [12, 75, 150, 180, 145, 525, 50] 
+
+Ans - numbers = [12, 75, 150, 180, 145, 525, 50] 
+      even_numbers = []
+
+      for i in numbers:
+        if i%2==0:
+          even_numbers.append(i)
+      print(even_numbers)
+
+      print(sum(even_numbers)) 
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output. 
+
+Ans -  x, y ,z = input("Enter three values: ").split()
+       print("First number is : ", x)
+       print("Second number is : ", y)
+       print("Third number is :",z) 
+
+       print(max(x,y,z)) 
+
+
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+     The number must be divisible by five
+
+     If the number is greater than 150, then skip it and move to the next number
+
+     If the number is greater than 500, then stop the loop
+
+     numbers = [12, 75, 150, 180, 145, 525, 50] 
+
+
+Ans -     divisible_by_5 = [] 
+
+          for i in numbers : 
+            if i % 5 ==0:
+              divisible_by_5.append(i) 
+
+
+         final_numbers = []
+
+         for i in div_5:
+           if i >=150 and i<=500:
+             final_numbers.append(i)
+
+         print(final_numbers)
+  
+          
+
+
+     
+      
+
+    
+
+
+
+
+
+
+
+
+
+
